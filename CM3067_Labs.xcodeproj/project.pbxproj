@@ -1,0 +1,226 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		E76232171DA7DB4C00682AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E76232121DA7DB4C00682AE5 /* Lab1q2.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E76F75851D9EBCA80072E981;
+			remoteInfo = Lab1q2;
+		};
+		E76232211DA7DB7400682AE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E762321D1DA7DB7400682AE5 /* Lab1q3.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E7F06D0D1DA026C900C7A7E9;
+			remoteInfo = Lab1q3;
+		};
+		E79FC66B1DA7A3EB00194A76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E79FC6671DA7A3EB00194A76 /* Lab1q1.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = F5FB00B11D9E764800C0CBE8;
+			remoteInfo = Lab1q1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E76232111DA7DB4C00682AE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E76232121DA7DB4C00682AE5 /* Lab1q2.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lab1q2.xcodeproj; sourceTree = "<group>"; };
+		E762321B1DA7DB7400682AE5 /* BillCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculator.swift; sourceTree = "<group>"; };
+		E762321C1DA7DB7400682AE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E762321D1DA7DB7400682AE5 /* Lab1q3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lab1q3.xcodeproj; sourceTree = "<group>"; };
+		E79FC6661DA7A3EB00194A76 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		E79FC6671DA7A3EB00194A76 /* Lab1q1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lab1q1.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		E762320F1DA7DB4C00682AE5 /* Lab1q2 */ = {
+			isa = PBXGroup;
+			children = (
+				E76232101DA7DB4C00682AE5 /* Lab1q2 */,
+				E76232121DA7DB4C00682AE5 /* Lab1q2.xcodeproj */,
+			);
+			path = Lab1q2;
+			sourceTree = "<group>";
+		};
+		E76232101DA7DB4C00682AE5 /* Lab1q2 */ = {
+			isa = PBXGroup;
+			children = (
+				E76232111DA7DB4C00682AE5 /* main.swift */,
+			);
+			path = Lab1q2;
+			sourceTree = "<group>";
+		};
+		E76232131DA7DB4C00682AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E76232181DA7DB4C00682AE5 /* Lab1q2 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E76232191DA7DB7400682AE5 /* Lab1q3 */ = {
+			isa = PBXGroup;
+			children = (
+				E762321A1DA7DB7400682AE5 /* Lab1q3 */,
+				E762321D1DA7DB7400682AE5 /* Lab1q3.xcodeproj */,
+			);
+			path = Lab1q3;
+			sourceTree = "<group>";
+		};
+		E762321A1DA7DB7400682AE5 /* Lab1q3 */ = {
+			isa = PBXGroup;
+			children = (
+				E762321B1DA7DB7400682AE5 /* BillCalculator.swift */,
+				E762321C1DA7DB7400682AE5 /* main.swift */,
+			);
+			path = Lab1q3;
+			sourceTree = "<group>";
+		};
+		E762321E1DA7DB7400682AE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E76232221DA7DB7400682AE5 /* Lab1q3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E79FC63E1DA79EB800194A76 /* Lab1 */ = {
+			isa = PBXGroup;
+			children = (
+				E79FC6641DA7A3EB00194A76 /* Lab1q1 */,
+				E762320F1DA7DB4C00682AE5 /* Lab1q2 */,
+				E76232191DA7DB7400682AE5 /* Lab1q3 */,
+			);
+			name = Lab1;
+			sourceTree = "<group>";
+		};
+		E79FC6641DA7A3EB00194A76 /* Lab1q1 */ = {
+			isa = PBXGroup;
+			children = (
+				E79FC6651DA7A3EB00194A76 /* Lab1q1 */,
+				E79FC6671DA7A3EB00194A76 /* Lab1q1.xcodeproj */,
+			);
+			path = Lab1q1;
+			sourceTree = "<group>";
+		};
+		E79FC6651DA7A3EB00194A76 /* Lab1q1 */ = {
+			isa = PBXGroup;
+			children = (
+				E79FC6661DA7A3EB00194A76 /* main.swift */,
+			);
+			path = Lab1q1;
+			sourceTree = "<group>";
+		};
+		E79FC6681DA7A3EB00194A76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E79FC66C1DA7A3EB00194A76 /* Lab1q1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7B209BD1DA2B2DC00942A7A = {
+			isa = PBXGroup;
+			children = (
+				E79FC63E1DA79EB800194A76 /* Lab1 */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		E7B209BE1DA2B2DC00942A7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+			};
+			buildConfigurationList = E7B209C11DA2B2DC00942A7A /* Build configuration list for PBXProject "CM3067_Labs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E7B209BD1DA2B2DC00942A7A;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = E79FC6681DA7A3EB00194A76 /* Products */;
+					ProjectRef = E79FC6671DA7A3EB00194A76 /* Lab1q1.xcodeproj */;
+				},
+				{
+					ProductGroup = E76232131DA7DB4C00682AE5 /* Products */;
+					ProjectRef = E76232121DA7DB4C00682AE5 /* Lab1q2.xcodeproj */;
+				},
+				{
+					ProductGroup = E762321E1DA7DB7400682AE5 /* Products */;
+					ProjectRef = E762321D1DA7DB7400682AE5 /* Lab1q3.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		E76232181DA7DB4C00682AE5 /* Lab1q2 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Lab1q2;
+			remoteRef = E76232171DA7DB4C00682AE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E76232221DA7DB7400682AE5 /* Lab1q3 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Lab1q3;
+			remoteRef = E76232211DA7DB7400682AE5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E79FC66C1DA7A3EB00194A76 /* Lab1q1 */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = Lab1q1;
+			remoteRef = E79FC66B1DA7A3EB00194A76 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin XCBuildConfiguration section */
+		E7B209C21DA2B2DC00942A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		E7B209C31DA2B2DC00942A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E7B209C11DA2B2DC00942A7A /* Build configuration list for PBXProject "CM3067_Labs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7B209C21DA2B2DC00942A7A /* Debug */,
+				E7B209C31DA2B2DC00942A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E7B209BE1DA2B2DC00942A7A /* Project object */;
+}
