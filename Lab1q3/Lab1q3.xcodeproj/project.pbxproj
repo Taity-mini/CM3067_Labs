@@ -106,6 +106,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E7F06D041DA026C800C7A7E9;
 			productRefGroup = E7F06D0E1DA026C900C7A7E9 /* Products */;
@@ -245,6 +246,7 @@
 				E7F06D161DA026C900C7A7E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
