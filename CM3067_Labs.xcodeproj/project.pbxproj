@@ -21,6 +21,27 @@
 			remoteGlobalIDString = E7F06D0D1DA026C900C7A7E9;
 			remoteInfo = Lab1q3;
 		};
+		E7772C8F1DBA03AD00EAD28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7772C831DBA03AD00EAD28E /* ExtendedBillCalculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E760AC1C1DB2E23500DC032C;
+			remoteInfo = ExtendedBillCalculator;
+		};
+		E7772C911DBA03AD00EAD28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7772C831DBA03AD00EAD28E /* ExtendedBillCalculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E760AC301DB2E23500DC032C;
+			remoteInfo = ExtendedBillCalculatorTests;
+		};
+		E7772C931DBA03AD00EAD28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7772C831DBA03AD00EAD28E /* ExtendedBillCalculator.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E760AC3B1DB2E23500DC032C;
+			remoteInfo = ExtendedBillCalculatorUITests;
+		};
 		E79FC66B1DA7A3EB00194A76 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E79FC6671DA7A3EB00194A76 /* Lab1q1.xcodeproj */;
@@ -57,6 +78,17 @@
 		E762321B1DA7DB7400682AE5 /* BillCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCalculator.swift; sourceTree = "<group>"; };
 		E762321C1DA7DB7400682AE5 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E762321D1DA7DB7400682AE5 /* Lab1q3.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lab1q3.xcodeproj; sourceTree = "<group>"; };
+		E7772C7B1DBA03AD00EAD28E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7772C7C1DBA03AD00EAD28E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7772C7E1DBA03AD00EAD28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7772C801DBA03AD00EAD28E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7772C811DBA03AD00EAD28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7772C821DBA03AD00EAD28E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7772C831DBA03AD00EAD28E /* ExtendedBillCalculator.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = ExtendedBillCalculator.xcodeproj; sourceTree = "<group>"; };
+		E7772C871DBA03AD00EAD28E /* ExtendedBillCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedBillCalculatorTests.swift; sourceTree = "<group>"; };
+		E7772C881DBA03AD00EAD28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7772C8A1DBA03AD00EAD28E /* ExtendedBillCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtendedBillCalculatorUITests.swift; sourceTree = "<group>"; };
+		E7772C8B1DBA03AD00EAD28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E79FC6661DA7A3EB00194A76 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E79FC6671DA7A3EB00194A76 /* Lab1q1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lab1q1.xcodeproj; sourceTree = "<group>"; };
 		E7EEE09D1DB0231A00634EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -124,6 +156,66 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E7772C721DBA038300EAD28E /* Lab3 */ = {
+			isa = PBXGroup;
+			children = (
+				E7772C791DBA03AD00EAD28E /* ExtendedBillCalculator */,
+			);
+			name = Lab3;
+			sourceTree = "<group>";
+		};
+		E7772C791DBA03AD00EAD28E /* ExtendedBillCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E7772C7A1DBA03AD00EAD28E /* ExtendedBillCalculator */,
+				E7772C831DBA03AD00EAD28E /* ExtendedBillCalculator.xcodeproj */,
+				E7772C861DBA03AD00EAD28E /* ExtendedBillCalculatorTests */,
+				E7772C891DBA03AD00EAD28E /* ExtendedBillCalculatorUITests */,
+			);
+			path = ExtendedBillCalculator;
+			sourceTree = "<group>";
+		};
+		E7772C7A1DBA03AD00EAD28E /* ExtendedBillCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				E7772C7B1DBA03AD00EAD28E /* AppDelegate.swift */,
+				E7772C7C1DBA03AD00EAD28E /* Assets.xcassets */,
+				E7772C7D1DBA03AD00EAD28E /* LaunchScreen.storyboard */,
+				E7772C7F1DBA03AD00EAD28E /* Main.storyboard */,
+				E7772C811DBA03AD00EAD28E /* Info.plist */,
+				E7772C821DBA03AD00EAD28E /* ViewController.swift */,
+			);
+			path = ExtendedBillCalculator;
+			sourceTree = "<group>";
+		};
+		E7772C841DBA03AD00EAD28E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7772C901DBA03AD00EAD28E /* ExtendedBillCalculator.app */,
+				E7772C921DBA03AD00EAD28E /* ExtendedBillCalculatorTests.xctest */,
+				E7772C941DBA03AD00EAD28E /* ExtendedBillCalculatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7772C861DBA03AD00EAD28E /* ExtendedBillCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				E7772C871DBA03AD00EAD28E /* ExtendedBillCalculatorTests.swift */,
+				E7772C881DBA03AD00EAD28E /* Info.plist */,
+			);
+			path = ExtendedBillCalculatorTests;
+			sourceTree = "<group>";
+		};
+		E7772C891DBA03AD00EAD28E /* ExtendedBillCalculatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7772C8A1DBA03AD00EAD28E /* ExtendedBillCalculatorUITests.swift */,
+				E7772C8B1DBA03AD00EAD28E /* Info.plist */,
+			);
+			path = ExtendedBillCalculatorUITests;
+			sourceTree = "<group>";
+		};
 		E79FC63E1DA79EB800194A76 /* Lab1 */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,6 +256,7 @@
 			children = (
 				E79FC63E1DA79EB800194A76 /* Lab1 */,
 				E7EEE0971DB0230600634EAE /* Lab2 */,
+				E7772C721DBA038300EAD28E /* Lab3 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -251,6 +344,10 @@
 					ProjectRef = E7EEE0A51DB0231A00634EAE /* CardGame.xcodeproj */;
 				},
 				{
+					ProductGroup = E7772C841DBA03AD00EAD28E /* Products */;
+					ProjectRef = E7772C831DBA03AD00EAD28E /* ExtendedBillCalculator.xcodeproj */;
+				},
+				{
 					ProductGroup = E79FC6681DA7A3EB00194A76 /* Products */;
 					ProjectRef = E79FC6671DA7A3EB00194A76 /* Lab1q1.xcodeproj */;
 				},
@@ -284,6 +381,27 @@
 			remoteRef = E76232211DA7DB7400682AE5 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		E7772C901DBA03AD00EAD28E /* ExtendedBillCalculator.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ExtendedBillCalculator.app;
+			remoteRef = E7772C8F1DBA03AD00EAD28E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7772C921DBA03AD00EAD28E /* ExtendedBillCalculatorTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExtendedBillCalculatorTests.xctest;
+			remoteRef = E7772C911DBA03AD00EAD28E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7772C941DBA03AD00EAD28E /* ExtendedBillCalculatorUITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExtendedBillCalculatorUITests.xctest;
+			remoteRef = E7772C931DBA03AD00EAD28E /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		E79FC66C1DA7A3EB00194A76 /* Lab1q1 */ = {
 			isa = PBXReferenceProxy;
 			fileType = "compiled.mach-o.executable";
@@ -315,6 +433,22 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXVariantGroup section */
+		E7772C7D1DBA03AD00EAD28E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7772C7E1DBA03AD00EAD28E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7772C7F1DBA03AD00EAD28E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7772C801DBA03AD00EAD28E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
 		E7EEE09F1DB0231A00634EAE /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
