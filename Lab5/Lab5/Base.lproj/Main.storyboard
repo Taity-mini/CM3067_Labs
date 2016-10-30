@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Lab5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sVZ-Mj-bPe">
+                                <rect key="frame" x="131" y="295" width="116" height="62"/>
+                                <state key="normal" backgroundImage="United_Kingdom"/>
+                                <connections>
+                                    <segue destination="j6L-yb-RdH" kind="show" id="PWb-8B-TLW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VGk-fJ-2gM">
+                                <rect key="frame" x="128" y="91" width="113" height="73"/>
+                                <state key="normal" backgroundImage="Brazil"/>
+                                <connections>
+                                    <segue destination="Jo9-ue-9Zk" kind="popoverPresentation" popoverAnchorView="VGk-fJ-2gM" id="HNS-8D-ZuD">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BEM-Pr-xnq">
+                                <rect key="frame" x="131" y="396" width="113" height="67"/>
+                                <state key="normal" backgroundImage="Japan"/>
+                                <connections>
+                                    <segue destination="OpA-CX-J8j" kind="show" id="Tp0-t8-qd8"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FTu-Ye-o4k">
+                                <rect key="frame" x="128" y="185" width="116" height="74"/>
+                                <state key="normal" backgroundImage="China"/>
+                                <connections>
+                                    <segue destination="0O4-kK-tJr" kind="show" id="sSW-gY-EBH"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <exit id="z4D-r8-9XR" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="220.5" y="442.5"/>
+        </scene>
+        <!--Brazil View Controller-->
+        <scene sceneID="P9e-te-kdH">
+            <objects>
+                <viewController id="Jo9-ue-9Zk" customClass="BrazilViewController" customModule="Lab5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="tEo-gL-v9N"/>
+                        <viewControllerLayoutGuide type="bottom" id="LCe-2S-TRP"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="512-bB-mvV">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jzw-Ah-xBv">
+                                <rect key="frame" x="140" y="559" width="72" height="43"/>
+                                <color key="backgroundColor" red="0.058991826330782343" green="0.11157069137807687" blue="0.5490196078431373" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="z4D-r8-9XR" kind="unwind" unwindAction="exitToHere:" id="ewH-k3-ZVl"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aCY-Po-TV0">
+                                <rect key="frame" x="20" y="48" width="335" height="485"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.070588235289999995" green="0.54901960780000003" blue="0.1764705882" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="aCY-Po-TV0" id="WZs-ro-l9u"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="trT-b1-lxI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="693.5" y="442.5"/>
+        </scene>
+        <!--China View Controller-->
+        <scene sceneID="24J-Lw-fKX">
+            <objects>
+                <viewController id="0O4-kK-tJr" customClass="ChinaViewController" customModule="Lab5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="fSz-Mi-RhB"/>
+                        <viewControllerLayoutGuide type="bottom" id="kXd-W6-MkN"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4E8-dO-7za">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dA7-lu-JU6">
+                                <rect key="frame" x="142" y="543" width="72" height="43"/>
+                                <color key="backgroundColor" red="0.058991826329999997" green="0.1115706914" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="z4D-r8-9XR" kind="unwind" unwindAction="exitToHere:" id="nFv-sF-Gvv"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QTL-fN-UOC">
+                                <rect key="frame" x="20" y="47" width="335" height="488"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.050417275372518722" blue="0.035787305281352211" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="QTL-fN-UOC" id="zsZ-8T-HQu"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6hz-1H-9ZQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1110.5" y="442.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8bi-Fj-T0N">
+            <objects>
+                <viewController id="j6L-yb-RdH" customClass="UKViewController" customModule="Lab5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="yMh-J7-OUp"/>
+                        <viewControllerLayoutGuide type="bottom" id="o3N-33-QZQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="J4v-Oe-Lhi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvh-hx-UQc">
+                                <rect key="frame" x="151" y="553" width="72" height="43"/>
+                                <color key="backgroundColor" red="0.058991826329999997" green="0.1115706914" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="z4D-r8-9XR" kind="unwind" unwindAction="exitToHere:" id="3g6-0o-KQz"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="t79-XK-Agk">
+                                <rect key="frame" x="20" y="34" width="335" height="503"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.081345462847874694" green="0.53081131555276162" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="t79-XK-Agk" id="rsy-BD-4eS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M7y-ic-eCQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1584.5" y="442.5"/>
+        </scene>
+        <!--Japan View Controller-->
+        <scene sceneID="df8-NA-VoH">
+            <objects>
+                <viewController id="OpA-CX-J8j" customClass="JapanViewController" customModule="Lab5" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="afb-kF-PS8"/>
+                        <viewControllerLayoutGuide type="bottom" id="bAP-Ir-V9u"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="BMS-hu-sHQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vX-SO-S3U">
+                                <rect key="frame" x="143" y="548" width="72" height="43"/>
+                                <color key="backgroundColor" red="0.058991826329999997" green="0.1115706914" blue="0.54901960780000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Return">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="z4D-r8-9XR" kind="unwind" unwindAction="exitToHere:" id="Mm7-8G-e59"/>
+                                </connections>
+                            </button>
+                            <webView contentMode="scaleToFill" fixedFrame="YES" scalesPageToFit="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Qap-pC-UxW">
+                                <rect key="frame" x="20" y="36" width="335" height="504"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="webView" destination="Qap-pC-UxW" id="NDl-xp-8YU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Kij-42-12D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2003.5" y="442.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Brazil" width="680" height="476"/>
+        <image name="China" width="680" height="453"/>
+        <image name="Japan" width="680" height="453"/>
+        <image name="United_Kingdom" width="680" height="340"/>
+    </resources>
+</document>

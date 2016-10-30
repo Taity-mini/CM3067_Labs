@@ -49,6 +49,27 @@
 			remoteGlobalIDString = F5FB00B11D9E764800C0CBE8;
 			remoteInfo = Lab1q1;
 		};
+		E7A047931DC645A2000A5BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A047871DC645A2000A5BBD /* Lab5.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E711733C1DC353530024FB95;
+			remoteInfo = Lab5;
+		};
+		E7A047951DC645A2000A5BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A047871DC645A2000A5BBD /* Lab5.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E71173501DC353530024FB95;
+			remoteInfo = Lab5Tests;
+		};
+		E7A047971DC645A2000A5BBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7A047871DC645A2000A5BBD /* Lab5.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E711735B1DC353530024FB95;
+			remoteInfo = Lab5UITests;
+		};
 		E7EEE0B11DB0231A00634EAE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E7EEE0A51DB0231A00634EAE /* CardGame.xcodeproj */;
@@ -91,6 +112,21 @@
 		E7772C8B1DBA03AD00EAD28E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E79FC6661DA7A3EB00194A76 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		E79FC6671DA7A3EB00194A76 /* Lab1q1.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lab1q1.xcodeproj; sourceTree = "<group>"; };
+		E7A0477B1DC645A2000A5BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E7A0477C1DC645A2000A5BBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E7A0477E1DC645A2000A5BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E7A047801DC645A2000A5BBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E7A047811DC645A2000A5BBD /* BrazilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrazilViewController.swift; sourceTree = "<group>"; };
+		E7A047821DC645A2000A5BBD /* ChinaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinaViewController.swift; sourceTree = "<group>"; };
+		E7A047831DC645A2000A5BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A047841DC645A2000A5BBD /* JapanViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JapanViewController.swift; sourceTree = "<group>"; };
+		E7A047851DC645A2000A5BBD /* UKViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UKViewController.swift; sourceTree = "<group>"; };
+		E7A047861DC645A2000A5BBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E7A047871DC645A2000A5BBD /* Lab5.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = Lab5.xcodeproj; sourceTree = "<group>"; };
+		E7A0478B1DC645A2000A5BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A0478C1DC645A2000A5BBD /* Lab5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab5Tests.swift; sourceTree = "<group>"; };
+		E7A0478E1DC645A2000A5BBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7A0478F1DC645A2000A5BBD /* Lab5UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lab5UITests.swift; sourceTree = "<group>"; };
 		E7EEE09D1DB0231A00634EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E7EEE09E1DB0231A00634EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7EEE0A01DB0231A00634EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -251,12 +287,69 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		E7A047791DC645A2000A5BBD /* Lab5 */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0477A1DC645A2000A5BBD /* Lab5 */,
+				E7A047871DC645A2000A5BBD /* Lab5.xcodeproj */,
+				E7A0478A1DC645A2000A5BBD /* Lab5Tests */,
+				E7A0478D1DC645A2000A5BBD /* Lab5UITests */,
+			);
+			path = Lab5;
+			sourceTree = "<group>";
+		};
+		E7A0477A1DC645A2000A5BBD /* Lab5 */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0477B1DC645A2000A5BBD /* AppDelegate.swift */,
+				E7A0477C1DC645A2000A5BBD /* Assets.xcassets */,
+				E7A0477D1DC645A2000A5BBD /* LaunchScreen.storyboard */,
+				E7A0477F1DC645A2000A5BBD /* Main.storyboard */,
+				E7A047811DC645A2000A5BBD /* BrazilViewController.swift */,
+				E7A047821DC645A2000A5BBD /* ChinaViewController.swift */,
+				E7A047831DC645A2000A5BBD /* Info.plist */,
+				E7A047841DC645A2000A5BBD /* JapanViewController.swift */,
+				E7A047851DC645A2000A5BBD /* UKViewController.swift */,
+				E7A047861DC645A2000A5BBD /* ViewController.swift */,
+			);
+			path = Lab5;
+			sourceTree = "<group>";
+		};
+		E7A047881DC645A2000A5BBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E7A047941DC645A2000A5BBD /* Lab5.app */,
+				E7A047961DC645A2000A5BBD /* Lab5Tests.xctest */,
+				E7A047981DC645A2000A5BBD /* Lab5UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E7A0478A1DC645A2000A5BBD /* Lab5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0478B1DC645A2000A5BBD /* Info.plist */,
+				E7A0478C1DC645A2000A5BBD /* Lab5Tests.swift */,
+			);
+			path = Lab5Tests;
+			sourceTree = "<group>";
+		};
+		E7A0478D1DC645A2000A5BBD /* Lab5UITests */ = {
+			isa = PBXGroup;
+			children = (
+				E7A0478E1DC645A2000A5BBD /* Info.plist */,
+				E7A0478F1DC645A2000A5BBD /* Lab5UITests.swift */,
+			);
+			path = Lab5UITests;
+			sourceTree = "<group>";
+		};
 		E7B209BD1DA2B2DC00942A7A = {
 			isa = PBXGroup;
 			children = (
 				E79FC63E1DA79EB800194A76 /* Lab1 */,
 				E7EEE0971DB0230600634EAE /* Lab2 */,
 				E7772C721DBA038300EAD28E /* Lab3 */,
+				E7A047791DC645A2000A5BBD /* Lab5 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -359,6 +452,10 @@
 					ProductGroup = E762321E1DA7DB7400682AE5 /* Products */;
 					ProjectRef = E762321D1DA7DB7400682AE5 /* Lab1q3.xcodeproj */;
 				},
+				{
+					ProductGroup = E7A047881DC645A2000A5BBD /* Products */;
+					ProjectRef = E7A047871DC645A2000A5BBD /* Lab5.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -409,6 +506,27 @@
 			remoteRef = E79FC66B1DA7A3EB00194A76 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		E7A047941DC645A2000A5BBD /* Lab5.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = Lab5.app;
+			remoteRef = E7A047931DC645A2000A5BBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7A047961DC645A2000A5BBD /* Lab5Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Lab5Tests.xctest;
+			remoteRef = E7A047951DC645A2000A5BBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E7A047981DC645A2000A5BBD /* Lab5UITests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = Lab5UITests.xctest;
+			remoteRef = E7A047971DC645A2000A5BBD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		E7EEE0B21DB0231A00634EAE /* CardGame.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
@@ -445,6 +563,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				E7772C801DBA03AD00EAD28E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E7A0477D1DC645A2000A5BBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7A0477E1DC645A2000A5BBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		E7A0477F1DC645A2000A5BBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E7A047801DC645A2000A5BBD /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
